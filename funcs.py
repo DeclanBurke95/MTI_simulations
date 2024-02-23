@@ -271,10 +271,9 @@ def get_rhos(syst, sum=False):
 def majorana_num(xy, W, Delta):
     warnings.filterwarnings("ignore", category=np.ComplexWarning)
     # params = default_params.copy()
-    params=get_default_params2(finite=False)
+    params=get_default_params(finite=False)
     import importlib
     import time    
-    parmas=get_default_params2()
     # importlib.reload(funcs)
 
     a=10    
