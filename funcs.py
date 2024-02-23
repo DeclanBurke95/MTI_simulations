@@ -156,7 +156,7 @@ def bands(k, lead, params, num_bands=20, sigma=0, sort=True):
     return energies, wfs
 
 def gap_search_k(xy, Delta, W):
-    params = get_default_params2(finite=False)
+    params = get_default_params(finite=False)
     import time
     from scipy import optimize
     import importlib
